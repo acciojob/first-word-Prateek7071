@@ -1,9 +1,9 @@
-function firstWord(str) {
+function firstWord(s) {
 
-  if (str.length === 0) return str;
+  if (s.length === 0) return s;
   else {
-    str = str.trim().split(" ");
-    return str[0]
+    s= s.trim().split(" ");
+    return s[0]
   }
 
 	
